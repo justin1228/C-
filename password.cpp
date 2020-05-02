@@ -7,7 +7,7 @@ void pass(int pw){
         std::cin >> pw;
 
     }
-    if(pw ==1234){
+    if(pw ==3256){
         std::cout << "Correct! \n";
     }
 }
