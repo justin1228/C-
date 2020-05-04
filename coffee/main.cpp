@@ -2,10 +2,10 @@
 #include "coffee.hpp"
 
 int main(){
-    std::cout << make_coffee()<< endl;
-    std::cout << make_coffee(false, true) <<endl;
-    std::cout << make_coffee(true)<<endl;
-
+    std::cout << make_coffee()<< std::endl;
+    std::cout << make_coffee(false, true) <<std::endl;
+    std::cout << make_coffee(true)<<std::endl;
+    std::cout << make_coffee(true, true)<< std::endl ;
 
     return 0;
 }
